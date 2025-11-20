@@ -1,0 +1,1157 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{agrawalCOVID19EconomicInequality2022}{book}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=857dfc592090a91d5b59362dc75e25d7}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Sarthak},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46fdd1ddd4713f3f62df8b7f78c32a7d}{%
+           family={Narayan},
+           familyi={N\bibinitperiod},
+           given={Ambar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb4f27a0037abd9307cb91c2308ceb17}{%
+           family={Bundervoet},
+           familyi={B\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65c8a4bd56d30d37b8b63d759f5c3980}{%
+           family={Cojocaru},
+           familyi={C\bibinitperiod},
+           given={Alexandru},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=227dcab86d791f2d8b5f3941979b1c52}{%
+           family={Davalos},
+           familyi={D\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=888d1f03077834f3e2dff44e047ffc28}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dafcdb7ec66e9c1ff3e20ca8d88fd9ba}{%
+           family={Montalva\bibnamedelima Talledo},
+           familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Veronica},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd58661bf173dc242cdacf1d50dd59b}{%
+           family={Lakner},
+           familyi={L\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eadb735f5eed72155155d6adce36571}{%
+           family={Ten},
+           familyi={T\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49bf3eaf20d978e97104e4f24ba20bbc}{%
+           family={Mahler},
+           familyi={M\bibinitperiod},
+           given={Daniel\bibnamedelima Gerszon},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f71bf377dcc2c07089392b535595de7a}{%
+           family={Yonzan},
+           familyi={Y\bibinitperiod},
+           given={Nishant},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank, Washington, DC}%
+      }
+      \strng{namehash}{6419119f88dc8a7ff2f9a4a629e0188e}
+      \strng{fullhash}{b12ff0f7c87940baed663faae35bcfef}
+      \strng{bibnamehash}{b12ff0f7c87940baed663faae35bcfef}
+      \strng{authorbibnamehash}{b12ff0f7c87940baed663faae35bcfef}
+      \strng{authornamehash}{6419119f88dc8a7ff2f9a4a629e0188e}
+      \strng{authorfullhash}{b12ff0f7c87940baed663faae35bcfef}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.}
+      \field{eprinttype}{hdl}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{{{COVID-19}} and {{Economic Inequality}}}
+      \field{title}{{{COVID-19}} and {{Economic Inequality}}: {{Short-Term Impacts}} with {{Long-Term Consequences}}}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1596/1813-9450-9902
+      \endverb
+      \verb{eprint}
+      \verb 10986/36848
+      \endverb
+      \verb{file}
+      \verb files/52/Agrawal 等 - 2022 - COVID-19 and Economic Inequality Short-Term Impacts with Long-Term Consequences.pdf
+      \endverb
+    \endentry
+    \entry{albanesiGenderedImpactCOVID192021}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0c2acf2e1aa826c0490c6ca950e7bbb4}{%
+           family={Albanesi},
+           familyi={A\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9641ff079e43d9ec51eec057a9786b2}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jiyeon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{fullhash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{bibnamehash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{authorbibnamehash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{authornamehash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{authorfullhash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The economic crisis associated with the emergence of the novel corona virus is unlike standard recessions. Demand for workers in high contact and inflexible service occupations has declined, while parental supply of labor has been reduced by lack of access to reliable child care and inperson schooling options. This has led to a substantial and persistent drop in employment and labor force participation for women, who are typically less affected by recessions than men. We examine real time data on employment, unemployment, labor force participation and gross job flows to document the gendered impact of the pandemic. We also discuss the potential long-term implications of this crisis, including the role of automation in depressing the recovery of employment for the worst hit service occupations.}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{w28505}
+      \field{title}{The {{Gendered Impact}} of the {{COVID-19 Recession}} on the {{US Labor Market}}}
+      \field{type}{techreport}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{w28505}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3386/w28505
+      \endverb
+      \verb{file}
+      \verb files/11/Albanesi和Kim - 2021 - The Gendered Impact of the COVID-19 Recession on the US Labor Market.pdf
+      \endverb
+    \endentry
+    \entry{angristChildrenTheirParents1996}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=71a74466a85192690bb7668576e4f2f3}{%
+           family={Angrist},
+           familyi={A\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef2904b95d12d705c31d93910d14796a}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{fullhash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{bibnamehash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{authorbibnamehash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{authornamehash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{authorfullhash}{8edda23e52237a6a895bd3c0ede76358}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{w5778}
+      \field{shorttitle}{Children and {{Their Parents}}' {{Labor Supply}}}
+      \field{title}{Children and {{Their Parents}}' {{Labor Supply}}: {{Evidence}} from {{Exogenous Variation}} in {{Family Size}}}
+      \field{type}{techreport}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \field{pages}{w5778}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3386/w5778
+      \endverb
+      \verb{file}
+      \verb files/79/Angrist和Evans - 1996 - Children and Their Parents' Labor Supply Evidence from Exogenous Variation in Family Size.pdf
+      \endverb
+    \endentry
+    \entry{baranowska-ratajFamilySizeMens2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a885dfb72ab9c0fc9c87cd55c1d099cb}{%
+           family={{Baranowska-Rataj}},
+           familyi={B\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f1f15dc47edefa972a901be2c475d50}{%
+           family={Matysiak},
+           familyi={M\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{fullhash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{bibnamehash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{authorbibnamehash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{authornamehash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{authorfullhash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article provides evidence on the relationship between fathers' labor market outcomes and number of children. Using data from the European Union Statistics on Income and Living Conditions and instrumental variable models, this study examines how family size is related to fathers' probability of employment, number of paid working hours, job rank, wages, and job stability across European countries with diverse social beliefs about men's financial and caregiving responsibilities. Results show that having a larger family is associated with increases in fathers' share of paid working hours, chances of having a permanent contract and a managerial position, and wages. These findings are, however, largely due to selection. Net of selection, fathers tend to increase paid working hours and are more likely to be promoted after childbirth only in countries where they are considered the main income providers, and acceptance of involved fatherhood is weak. The magnitude of these effects is small, however. HIGHLIGHTS Family size is positively correlated with fathers' labor market outcomes in Europe. Having more children is associated with higher job rank, wages, and job stability. Multiple births are the source of exogenous variation in the number of children. Net of selection, family size premium for fathers depends on gender ideologies. In less-egalitarian countries, family size brings more labor market rewards. {©} 2022 The Author(s). Published by Informa UK Limited, trading as Taylor \& Francis Group.}
+      \field{issn}{1354-5701}
+      \field{journaltitle}{Feminist Economics}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shorttitle}{Family {{Size}} and {{Men}}'s {{Labor Market Outcomes}}}
+      \field{title}{Family {{Size}} and {{Men}}'s {{Labor Market Outcomes}}: {{Do Social Beliefs About Men}}'s {{Roles}} in the {{Family Matter}}?}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{93\bibrangedash 118}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1080/13545701.2021.2015076
+      \endverb
+      \verb{file}
+      \verb files/68/Baranowska-Rataj和Matysiak - 2022 - Family Size and Men’s Labor Market Outcomes Do Social Beliefs About Men’s Roles in the Family Matte.pdf;files/67/85123401800.html
+      \endverb
+      \keyw{childbearing,family size,Fatherhood,gender ideologies,labor market}
+    \endentry
+    \entry{biegertHouseholdJoblessnessUS2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9283f10e132197fa5d1b022b735ee4be}{%
+           family={Biegert},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42360ea0d3b1a00ce5931f9fb8c9530a}{%
+           family={Özcan},
+           familyi={Ö\bibinitperiod},
+           given={Berkay},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de61307e59ae720d4033647095733562}{%
+           family={{Rossetti-Youlton}},
+           familyi={R\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d92829bebcb3914b3497dc3065bb3f11}
+      \strng{fullhash}{4f9319e72e34da61398d7be9cd6ad2f6}
+      \strng{bibnamehash}{4f9319e72e34da61398d7be9cd6ad2f6}
+      \strng{authorbibnamehash}{4f9319e72e34da61398d7be9cd6ad2f6}
+      \strng{authornamehash}{d92829bebcb3914b3497dc3065bb3f11}
+      \strng{authorfullhash}{4f9319e72e34da61398d7be9cd6ad2f6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The authors use Current Population Survey 2016 to 2021 quarterly data to analyze changes in household joblessness across metropolitan areas in the United States during the coronavirus disease 2019 pandemic. The authors first use shift-share analysis to decompose the change in household joblessness into changes in individual joblessness, household compositions, and polarization. The focus is on polarization, which is the result of the unequal distribution of individual joblessness across households. The authors find that the rise in household joblessness during the pandemic varies strongly across U.S. metropolitan areas. The initial stark increase and subsequent recovery are due largely to changes in individual joblessness. Polarization contributes notably to household joblessness but to varying degree. Second, the authors use metropolitan area--level fixed-effects regressions to test whether the educational profile of the population is a helpful predictor of changes in household joblessness and polarization. They measure three distinct features: educational levels, educational heterogeneity, and educational homogamy. Although much of the variance remains unexplained, household joblessness increased less in areas with higher educational levels. The authors show that how polarization contributes to household joblessness is shaped by educational heterogeneity and educational homogamy.}
+      \field{issn}{2378-0231}
+      \field{journaltitle}{Socius}
+      \field{month}{3}
+      \field{shorttitle}{Household {{Joblessness}} in {{U}}.{{S}}. {{Metropolitan Areas}} during the {{COVID-19 Pandemic}}}
+      \field{title}{Household {{Joblessness}} in {{U}}.{{S}}. {{Metropolitan Areas}} during the {{COVID-19 Pandemic}}: {{Polarization}} and the {{Role}} of {{Educational Profiles}}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{9}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{23780231231158087}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/23780231231158087
+      \endverb
+      \verb{file}
+      \verb files/26/Biegert 等 - 2023 - Household Joblessness in U.S. Metropolitan Areas during the COVID-19 Pandemic Polarization and the.pdf
+      \endverb
+    \endentry
+    \entry{ceciliaIntrahouseholdExposureLabor2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a928cd8b6160da071cbc8a108caa3121}{%
+           family={Cecilia},
+           familyi={C\bibinitperiod},
+           given={Peluffo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17217a5b257e1bf4abd0fae0739079a8}{%
+           family={Mariana},
+           familyi={M\bibinitperiod},
+           given={Viollaz},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature B.V.}%
+      }
+      \strng{namehash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{fullhash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{bibnamehash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{authorbibnamehash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{authornamehash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{authorfullhash}{04f8f04478256e1ed33d36d98401fc68}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The ability to work from home can be critical during pandemics. We calculate an index that measures the possibility of working from home based on the characteristics of the pre-Covid-19 pandemic distribution of occupations and on internet access at home, using microdata for Mexico. Focusing on households with two partners employed in nonessential occupations, we show that there is high within-household correlation in the possibility of working remotely, which is likely to be positively associated with job stability during the pandemic. Poor families, with low access to formal credit and who rely heavily on informal mechanisms for consumption smoothing have lower chances of working remotely than richer families with higher access to formal credit. High within-household correlation in the work-from-home index restricts the likelihood of intra-household risk-sharing and consumption smoothing, and is likely to contribute to an increase in inequality.}
+      \field{issn}{15695239}
+      \field{journaltitle}{Review of Economics of the Household}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shorttitle}{Intra-Household Exposure to Labor Market Risk in the Time of {{Covid-19}}}
+      \field{title}{Intra-Household Exposure to Labor Market Risk in the Time of {{Covid-19}}: Lessons from {{Mexico}}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{19}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{327\bibrangedash 351}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s11150-020-09541-8
+      \endverb
+      \verb{file}
+      \verb files/31/Cecilia和Mariana - 2021 - Intra-household exposure to labor market risk in the time of Covid-19 lessons from Mexico.pdf
+      \endverb
+      \keyw{Access,Consumption,Coronaviruses,COVID-19,Credit,Economic analysis,Families & family life,Home based,Households,Indexes,Inequality,Internet access,Labor market,Occupations,Pandemics,Work at home}
+    \endentry
+    \entry{coolsChildrenCareersHow2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=677132f6d07aa29f493566e1c35495d1}{%
+           family={Cools},
+           familyi={C\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37a84f4cc7b25b72f09c0137f32706cf}{%
+           family={Markussen},
+           familyi={M\bibinitperiod},
+           given={Simen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c56468d062f99b6b290ca0343625750}{%
+           family={Str{ø}m},
+           familyi={S\bibinitperiod},
+           given={Marte},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eead6f55652857644c7c690302aa0903}
+      \strng{fullhash}{098054740d2f4ef04eebe2f96c43a88c}
+      \strng{bibnamehash}{098054740d2f4ef04eebe2f96c43a88c}
+      \strng{authorbibnamehash}{098054740d2f4ef04eebe2f96c43a88c}
+      \strng{authornamehash}{eead6f55652857644c7c690302aa0903}
+      \strng{authorfullhash}{098054740d2f4ef04eebe2f96c43a88c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0070-3370}
+      \field{journaltitle}{Demography}
+      \field{shorttitle}{Children and {{Careers}}}
+      \field{title}{Children and {{Careers}}: {{How Family Size Affects Parents}}' {{Labor Market Outcomes}} in the {{Long Run}} {|} {{Demography}} {|} {{Duke University Press}}}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{54}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s13524-017-0612-0
+      \endverb
+      \verb{file}
+      \verb files/76/Cools 等 - Children and Careers How Family Size Affects Parents’ Labor Market Outcomes in the Long Run Demog.pdf
+      \endverb
+    \endentry
+    \entry{couchEarlyEvidenceImpacts2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=50b0b840273170c81058754e5df198b0}{%
+           family={Couch},
+           familyi={C\bibinitperiod},
+           given={Kenneth\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=140ec3f5d982676361e87158cb799c9f}{%
+           family={Fairlie},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47bcba6ac9ca9494194f892916237498}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Huanan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3235b5d649c02f78c58e0ee5e718e468}
+      \strng{fullhash}{dbc014b6c4d27f443fd2887332a648b3}
+      \strng{bibnamehash}{dbc014b6c4d27f443fd2887332a648b3}
+      \strng{authorbibnamehash}{dbc014b6c4d27f443fd2887332a648b3}
+      \strng{authornamehash}{3235b5d649c02f78c58e0ee5e718e468}
+      \strng{authorfullhash}{dbc014b6c4d27f443fd2887332a648b3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper provides early evidence of the impacts of the COVID-19 pandemic on minority unemployment in the United States. In the first month following March adoptions of social distancing measures by states, unemployment rose to 14.5\% but a much higher 24.4\% when we correct for potential data misclassification noted by the BLS. Using the official definition, unemployment in April 2020 among African-Americans rose by less than what would have been anticipated (to 16.6\%) based on previous recessions, and the long-term ordering of unemployment across racial/ethnic groups was altered with Latinx unemployment (18.2\%) rising for the first time to the highest among major groups. Difference-in-difference estimates confirm that the initial gap in unemployment between whites and blacks in April was not different than in periods prior to the pandemic; however, the racial gap expanded as unemployment for whites declined in the next two months but was largely stagnant for blacks. The initially large gap in unemployment between whites and Latinx in April was sustained in May and June as unemployment declined similarly for both groups. Non-linear decompositions show a favorable industry distribution partly protected black employment during the early stages of the pandemic, but that an unfavorable occupational distribution and lower average skills levels placed them at higher risk of job losses. An unfavorable occupational distribution and lower skills contributed to a sharply widened Latinx-white unemployment gap that moderated over time as rehiring occurred. These findings of disproportionate impacts on minority unemployment raise important concerns regarding lost earnings and wealth, and longer-term consequences of the pandemic on racial inequality in the United States.}
+      \field{issn}{0047-2727}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{month}{12}
+      \field{title}{Early Evidence of the Impacts of {{COVID-19}} on Minority Unemployment}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{192}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{104287}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jpubeco.2020.104287
+      \endverb
+      \verb{file}
+      \verb files/87/Couch 等 - 2020 - Early evidence of the impacts of COVID-19 on minority unemployment.pdf;files/86/S0047272720301511.html
+      \endverb
+      \keyw{Coronavirus,COVID-19,Inequality,Labor,Minorities,Race,Shelter-in-place,Social distancing,Unemployment}
+    \endentry
+    \entry{montenovoDeterminantsDisparitiesEarly2022}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=a3296d37ca686c8db3541c0eb1ad3c27}{%
+           family={Montenovo},
+           familyi={M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50f9626ab143d3c2fe1a3c0e7a24554a}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae7325ae4e7c10930f11073367602f2d}{%
+           family={{Lozano-Rojas}},
+           familyi={L\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6647c16bc23c2a759ad1a4b0512388b7}{%
+           family={Schmutte},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9eaf08cd07ffd5dd60389edae5b9eb1}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Kosali},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1aad92b2a0aa71536decb60a375efb7b}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={Bruce\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb8336628484c2f12ab2c53ad066d73c}{%
+           family={Wing},
+           familyi={W\bibinitperiod},
+           given={Coady},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Population Association of America, Duke University Press]}%
+      }
+      \strng{namehash}{de923a7bcc73bc283e907a98f9719efb}
+      \strng{fullhash}{2b4f42031a15d011f27ee1c8eb83b93e}
+      \strng{bibnamehash}{2b4f42031a15d011f27ee1c8eb83b93e}
+      \strng{authorbibnamehash}{2b4f42031a15d011f27ee1c8eb83b93e}
+      \strng{authornamehash}{de923a7bcc73bc283e907a98f9719efb}
+      \strng{authorfullhash}{2b4f42031a15d011f27ee1c8eb83b93e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study examines the sociodemographic divide in early labor market responses to the U.S. COVID-19 epidemic and associated policies, benchmarked against two previous recessions. Monthly Current Population Survey (CPS) data show greater declines in employment in April and May 2020 (relative to February) for His panic individuals, younger workers, and those with a high school diploma or some college. Between April and May, the demo graphic subgroups considered regained some employment. Reemployment in May was broadly proportional to the employment drop that occurred through April, except for Black individuals, who experienced a smaller rebound. Compared to the 2001 recession and the Great Recession, employment losses in the early COVID-19 recession were smaller for groups with low or high (vs. medium) education. We show that job loss was greater in occupations that require more inter personal contact and that can not be performed remotely, and that pre-COVID-19 sorting of work ers into occupations and industries along demographic lines can explain a sizable portion of the demographic gaps in new unemployment. For example, while women suffered more job losses than men, their disproportionate pre-epidemic sorting into occupations compatible with remote work shielded them from even larger employment losses. However, substantial gaps in employment losses across groups can not be explained by socioeconomic differences. We consider policy lessons and future research needs regarding the early labor market implications of the COVID-19 crisis.}
+      \field{eprinttype}{jstor}
+      \field{issn}{0070-3370}
+      \field{journaltitle}{Demography}
+      \field{number}{3}
+      \field{title}{Determinants of {{Disparities}} in {{Early COVID-19 Job Losses}}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{59}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{827\bibrangedash 855}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1215/00703370-9961471
+      \endverb
+      \verb{eprint}
+      \verb 48687245
+      \endverb
+      \verb{file}
+      \verb files/2/Montenovo 等 - 2022 - Determinants of Disparities in Early COVID-19 Job Losses.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{agrawalCOVID19EconomicInequality2022}{book}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=857dfc592090a91d5b59362dc75e25d7}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Sarthak},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46fdd1ddd4713f3f62df8b7f78c32a7d}{%
+           family={Narayan},
+           familyi={N\bibinitperiod},
+           given={Ambar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb4f27a0037abd9307cb91c2308ceb17}{%
+           family={Bundervoet},
+           familyi={B\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65c8a4bd56d30d37b8b63d759f5c3980}{%
+           family={Cojocaru},
+           familyi={C\bibinitperiod},
+           given={Alexandru},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=227dcab86d791f2d8b5f3941979b1c52}{%
+           family={Davalos},
+           familyi={D\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=888d1f03077834f3e2dff44e047ffc28}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dafcdb7ec66e9c1ff3e20ca8d88fd9ba}{%
+           family={Montalva\bibnamedelima Talledo},
+           familyi={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Veronica},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd58661bf173dc242cdacf1d50dd59b}{%
+           family={Lakner},
+           familyi={L\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eadb735f5eed72155155d6adce36571}{%
+           family={Ten},
+           familyi={T\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49bf3eaf20d978e97104e4f24ba20bbc}{%
+           family={Mahler},
+           familyi={M\bibinitperiod},
+           given={Daniel\bibnamedelima Gerszon},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f71bf377dcc2c07089392b535595de7a}{%
+           family={Yonzan},
+           familyi={Y\bibinitperiod},
+           given={Nishant},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank, Washington, DC}%
+      }
+      \strng{namehash}{6419119f88dc8a7ff2f9a4a629e0188e}
+      \strng{fullhash}{b12ff0f7c87940baed663faae35bcfef}
+      \strng{bibnamehash}{b12ff0f7c87940baed663faae35bcfef}
+      \strng{authorbibnamehash}{b12ff0f7c87940baed663faae35bcfef}
+      \strng{authornamehash}{6419119f88dc8a7ff2f9a4a629e0188e}
+      \strng{authorfullhash}{b12ff0f7c87940baed663faae35bcfef}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.}
+      \field{eprinttype}{hdl}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{{{COVID-19}} and {{Economic Inequality}}}
+      \field{title}{{{COVID-19}} and {{Economic Inequality}}: {{Short-Term Impacts}} with {{Long-Term Consequences}}}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1596/1813-9450-9902
+      \endverb
+      \verb{eprint}
+      \verb 10986/36848
+      \endverb
+      \verb{file}
+      \verb files/52/Agrawal 等 - 2022 - COVID-19 and Economic Inequality Short-Term Impacts with Long-Term Consequences.pdf
+      \endverb
+    \endentry
+    \entry{albanesiGenderedImpactCOVID192021}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0c2acf2e1aa826c0490c6ca950e7bbb4}{%
+           family={Albanesi},
+           familyi={A\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9641ff079e43d9ec51eec057a9786b2}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jiyeon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{fullhash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{bibnamehash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{authorbibnamehash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{authornamehash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \strng{authorfullhash}{006bacb61c5c08d5dc9fcfe72ff887b4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The economic crisis associated with the emergence of the novel corona virus is unlike standard recessions. Demand for workers in high contact and inflexible service occupations has declined, while parental supply of labor has been reduced by lack of access to reliable child care and inperson schooling options. This has led to a substantial and persistent drop in employment and labor force participation for women, who are typically less affected by recessions than men. We examine real time data on employment, unemployment, labor force participation and gross job flows to document the gendered impact of the pandemic. We also discuss the potential long-term implications of this crisis, including the role of automation in depressing the recovery of employment for the worst hit service occupations.}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{w28505}
+      \field{title}{The {{Gendered Impact}} of the {{COVID-19 Recession}} on the {{US Labor Market}}}
+      \field{type}{techreport}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{w28505}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3386/w28505
+      \endverb
+      \verb{file}
+      \verb files/11/Albanesi和Kim - 2021 - The Gendered Impact of the COVID-19 Recession on the US Labor Market.pdf
+      \endverb
+    \endentry
+    \entry{angristChildrenTheirParents1996}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=71a74466a85192690bb7668576e4f2f3}{%
+           family={Angrist},
+           familyi={A\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef2904b95d12d705c31d93910d14796a}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{fullhash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{bibnamehash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{authorbibnamehash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{authornamehash}{8edda23e52237a6a895bd3c0ede76358}
+      \strng{authorfullhash}{8edda23e52237a6a895bd3c0ede76358}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{w5778}
+      \field{shorttitle}{Children and {{Their Parents}}' {{Labor Supply}}}
+      \field{title}{Children and {{Their Parents}}' {{Labor Supply}}: {{Evidence}} from {{Exogenous Variation}} in {{Family Size}}}
+      \field{type}{techreport}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \field{pages}{w5778}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3386/w5778
+      \endverb
+      \verb{file}
+      \verb files/79/Angrist和Evans - 1996 - Children and Their Parents' Labor Supply Evidence from Exogenous Variation in Family Size.pdf
+      \endverb
+    \endentry
+    \entry{baranowska-ratajFamilySizeMens2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a885dfb72ab9c0fc9c87cd55c1d099cb}{%
+           family={{Baranowska-Rataj}},
+           familyi={B\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f1f15dc47edefa972a901be2c475d50}{%
+           family={Matysiak},
+           familyi={M\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{fullhash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{bibnamehash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{authorbibnamehash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{authornamehash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \strng{authorfullhash}{7a73c3c0e950e21f97bfa3c0ac0a14a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article provides evidence on the relationship between fathers' labor market outcomes and number of children. Using data from the European Union Statistics on Income and Living Conditions and instrumental variable models, this study examines how family size is related to fathers' probability of employment, number of paid working hours, job rank, wages, and job stability across European countries with diverse social beliefs about men's financial and caregiving responsibilities. Results show that having a larger family is associated with increases in fathers' share of paid working hours, chances of having a permanent contract and a managerial position, and wages. These findings are, however, largely due to selection. Net of selection, fathers tend to increase paid working hours and are more likely to be promoted after childbirth only in countries where they are considered the main income providers, and acceptance of involved fatherhood is weak. The magnitude of these effects is small, however. HIGHLIGHTS Family size is positively correlated with fathers' labor market outcomes in Europe. Having more children is associated with higher job rank, wages, and job stability. Multiple births are the source of exogenous variation in the number of children. Net of selection, family size premium for fathers depends on gender ideologies. In less-egalitarian countries, family size brings more labor market rewards. {©} 2022 The Author(s). Published by Informa UK Limited, trading as Taylor \& Francis Group.}
+      \field{issn}{1354-5701}
+      \field{journaltitle}{Feminist Economics}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shorttitle}{Family {{Size}} and {{Men}}'s {{Labor Market Outcomes}}}
+      \field{title}{Family {{Size}} and {{Men}}'s {{Labor Market Outcomes}}: {{Do Social Beliefs About Men}}'s {{Roles}} in the {{Family Matter}}?}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{93\bibrangedash 118}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1080/13545701.2021.2015076
+      \endverb
+      \verb{file}
+      \verb files/68/Baranowska-Rataj和Matysiak - 2022 - Family Size and Men’s Labor Market Outcomes Do Social Beliefs About Men’s Roles in the Family Matte.pdf;files/67/85123401800.html
+      \endverb
+      \keyw{childbearing,family size,Fatherhood,gender ideologies,labor market}
+    \endentry
+    \entry{biegertHouseholdJoblessnessUS2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9283f10e132197fa5d1b022b735ee4be}{%
+           family={Biegert},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42360ea0d3b1a00ce5931f9fb8c9530a}{%
+           family={Özcan},
+           familyi={Ö\bibinitperiod},
+           given={Berkay},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de61307e59ae720d4033647095733562}{%
+           family={{Rossetti-Youlton}},
+           familyi={R\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d92829bebcb3914b3497dc3065bb3f11}
+      \strng{fullhash}{4f9319e72e34da61398d7be9cd6ad2f6}
+      \strng{bibnamehash}{4f9319e72e34da61398d7be9cd6ad2f6}
+      \strng{authorbibnamehash}{4f9319e72e34da61398d7be9cd6ad2f6}
+      \strng{authornamehash}{d92829bebcb3914b3497dc3065bb3f11}
+      \strng{authorfullhash}{4f9319e72e34da61398d7be9cd6ad2f6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The authors use Current Population Survey 2016 to 2021 quarterly data to analyze changes in household joblessness across metropolitan areas in the United States during the coronavirus disease 2019 pandemic. The authors first use shift-share analysis to decompose the change in household joblessness into changes in individual joblessness, household compositions, and polarization. The focus is on polarization, which is the result of the unequal distribution of individual joblessness across households. The authors find that the rise in household joblessness during the pandemic varies strongly across U.S. metropolitan areas. The initial stark increase and subsequent recovery are due largely to changes in individual joblessness. Polarization contributes notably to household joblessness but to varying degree. Second, the authors use metropolitan area--level fixed-effects regressions to test whether the educational profile of the population is a helpful predictor of changes in household joblessness and polarization. They measure three distinct features: educational levels, educational heterogeneity, and educational homogamy. Although much of the variance remains unexplained, household joblessness increased less in areas with higher educational levels. The authors show that how polarization contributes to household joblessness is shaped by educational heterogeneity and educational homogamy.}
+      \field{issn}{2378-0231}
+      \field{journaltitle}{Socius}
+      \field{month}{3}
+      \field{shorttitle}{Household {{Joblessness}} in {{U}}.{{S}}. {{Metropolitan Areas}} during the {{COVID-19 Pandemic}}}
+      \field{title}{Household {{Joblessness}} in {{U}}.{{S}}. {{Metropolitan Areas}} during the {{COVID-19 Pandemic}}: {{Polarization}} and the {{Role}} of {{Educational Profiles}}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{9}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{23780231231158087}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/23780231231158087
+      \endverb
+      \verb{file}
+      \verb files/26/Biegert 等 - 2023 - Household Joblessness in U.S. Metropolitan Areas during the COVID-19 Pandemic Polarization and the.pdf
+      \endverb
+    \endentry
+    \entry{ceciliaIntrahouseholdExposureLabor2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a928cd8b6160da071cbc8a108caa3121}{%
+           family={Cecilia},
+           familyi={C\bibinitperiod},
+           given={Peluffo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17217a5b257e1bf4abd0fae0739079a8}{%
+           family={Mariana},
+           familyi={M\bibinitperiod},
+           given={Viollaz},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature B.V.}%
+      }
+      \strng{namehash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{fullhash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{bibnamehash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{authorbibnamehash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{authornamehash}{04f8f04478256e1ed33d36d98401fc68}
+      \strng{authorfullhash}{04f8f04478256e1ed33d36d98401fc68}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The ability to work from home can be critical during pandemics. We calculate an index that measures the possibility of working from home based on the characteristics of the pre-Covid-19 pandemic distribution of occupations and on internet access at home, using microdata for Mexico. Focusing on households with two partners employed in nonessential occupations, we show that there is high within-household correlation in the possibility of working remotely, which is likely to be positively associated with job stability during the pandemic. Poor families, with low access to formal credit and who rely heavily on informal mechanisms for consumption smoothing have lower chances of working remotely than richer families with higher access to formal credit. High within-household correlation in the work-from-home index restricts the likelihood of intra-household risk-sharing and consumption smoothing, and is likely to contribute to an increase in inequality.}
+      \field{issn}{15695239}
+      \field{journaltitle}{Review of Economics of the Household}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shorttitle}{Intra-Household Exposure to Labor Market Risk in the Time of {{Covid-19}}}
+      \field{title}{Intra-Household Exposure to Labor Market Risk in the Time of {{Covid-19}}: Lessons from {{Mexico}}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{19}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{327\bibrangedash 351}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s11150-020-09541-8
+      \endverb
+      \verb{file}
+      \verb files/31/Cecilia和Mariana - 2021 - Intra-household exposure to labor market risk in the time of Covid-19 lessons from Mexico.pdf
+      \endverb
+      \keyw{Access,Consumption,Coronaviruses,COVID-19,Credit,Economic analysis,Families & family life,Home based,Households,Indexes,Inequality,Internet access,Labor market,Occupations,Pandemics,Work at home}
+    \endentry
+    \entry{coolsChildrenCareersHow2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=677132f6d07aa29f493566e1c35495d1}{%
+           family={Cools},
+           familyi={C\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37a84f4cc7b25b72f09c0137f32706cf}{%
+           family={Markussen},
+           familyi={M\bibinitperiod},
+           given={Simen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c56468d062f99b6b290ca0343625750}{%
+           family={Str{ø}m},
+           familyi={S\bibinitperiod},
+           given={Marte},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eead6f55652857644c7c690302aa0903}
+      \strng{fullhash}{098054740d2f4ef04eebe2f96c43a88c}
+      \strng{bibnamehash}{098054740d2f4ef04eebe2f96c43a88c}
+      \strng{authorbibnamehash}{098054740d2f4ef04eebe2f96c43a88c}
+      \strng{authornamehash}{eead6f55652857644c7c690302aa0903}
+      \strng{authorfullhash}{098054740d2f4ef04eebe2f96c43a88c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0070-3370}
+      \field{journaltitle}{Demography}
+      \field{shorttitle}{Children and {{Careers}}}
+      \field{title}{Children and {{Careers}}: {{How Family Size Affects Parents}}' {{Labor Market Outcomes}} in the {{Long Run}} {|} {{Demography}} {|} {{Duke University Press}}}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{54}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s13524-017-0612-0
+      \endverb
+      \verb{file}
+      \verb files/76/Cools 等 - Children and Careers How Family Size Affects Parents’ Labor Market Outcomes in the Long Run Demog.pdf
+      \endverb
+    \endentry
+    \entry{couchEarlyEvidenceImpacts2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=50b0b840273170c81058754e5df198b0}{%
+           family={Couch},
+           familyi={C\bibinitperiod},
+           given={Kenneth\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=140ec3f5d982676361e87158cb799c9f}{%
+           family={Fairlie},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47bcba6ac9ca9494194f892916237498}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Huanan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3235b5d649c02f78c58e0ee5e718e468}
+      \strng{fullhash}{dbc014b6c4d27f443fd2887332a648b3}
+      \strng{bibnamehash}{dbc014b6c4d27f443fd2887332a648b3}
+      \strng{authorbibnamehash}{dbc014b6c4d27f443fd2887332a648b3}
+      \strng{authornamehash}{3235b5d649c02f78c58e0ee5e718e468}
+      \strng{authorfullhash}{dbc014b6c4d27f443fd2887332a648b3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper provides early evidence of the impacts of the COVID-19 pandemic on minority unemployment in the United States. In the first month following March adoptions of social distancing measures by states, unemployment rose to 14.5\% but a much higher 24.4\% when we correct for potential data misclassification noted by the BLS. Using the official definition, unemployment in April 2020 among African-Americans rose by less than what would have been anticipated (to 16.6\%) based on previous recessions, and the long-term ordering of unemployment across racial/ethnic groups was altered with Latinx unemployment (18.2\%) rising for the first time to the highest among major groups. Difference-in-difference estimates confirm that the initial gap in unemployment between whites and blacks in April was not different than in periods prior to the pandemic; however, the racial gap expanded as unemployment for whites declined in the next two months but was largely stagnant for blacks. The initially large gap in unemployment between whites and Latinx in April was sustained in May and June as unemployment declined similarly for both groups. Non-linear decompositions show a favorable industry distribution partly protected black employment during the early stages of the pandemic, but that an unfavorable occupational distribution and lower average skills levels placed them at higher risk of job losses. An unfavorable occupational distribution and lower skills contributed to a sharply widened Latinx-white unemployment gap that moderated over time as rehiring occurred. These findings of disproportionate impacts on minority unemployment raise important concerns regarding lost earnings and wealth, and longer-term consequences of the pandemic on racial inequality in the United States.}
+      \field{issn}{0047-2727}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{month}{12}
+      \field{title}{Early Evidence of the Impacts of {{COVID-19}} on Minority Unemployment}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{192}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{104287}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jpubeco.2020.104287
+      \endverb
+      \verb{file}
+      \verb files/87/Couch 等 - 2020 - Early evidence of the impacts of COVID-19 on minority unemployment.pdf;files/86/S0047272720301511.html
+      \endverb
+      \keyw{Coronavirus,COVID-19,Inequality,Labor,Minorities,Race,Shelter-in-place,Social distancing,Unemployment}
+    \endentry
+    \entry{montenovoDeterminantsDisparitiesEarly2022}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=a3296d37ca686c8db3541c0eb1ad3c27}{%
+           family={Montenovo},
+           familyi={M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50f9626ab143d3c2fe1a3c0e7a24554a}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae7325ae4e7c10930f11073367602f2d}{%
+           family={{Lozano-Rojas}},
+           familyi={L\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6647c16bc23c2a759ad1a4b0512388b7}{%
+           family={Schmutte},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9eaf08cd07ffd5dd60389edae5b9eb1}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Kosali},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1aad92b2a0aa71536decb60a375efb7b}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={Bruce\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb8336628484c2f12ab2c53ad066d73c}{%
+           family={Wing},
+           familyi={W\bibinitperiod},
+           given={Coady},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Population Association of America, Duke University Press]}%
+      }
+      \strng{namehash}{de923a7bcc73bc283e907a98f9719efb}
+      \strng{fullhash}{2b4f42031a15d011f27ee1c8eb83b93e}
+      \strng{bibnamehash}{2b4f42031a15d011f27ee1c8eb83b93e}
+      \strng{authorbibnamehash}{2b4f42031a15d011f27ee1c8eb83b93e}
+      \strng{authornamehash}{de923a7bcc73bc283e907a98f9719efb}
+      \strng{authorfullhash}{2b4f42031a15d011f27ee1c8eb83b93e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study examines the sociodemographic divide in early labor market responses to the U.S. COVID-19 epidemic and associated policies, benchmarked against two previous recessions. Monthly Current Population Survey (CPS) data show greater declines in employment in April and May 2020 (relative to February) for His panic individuals, younger workers, and those with a high school diploma or some college. Between April and May, the demo graphic subgroups considered regained some employment. Reemployment in May was broadly proportional to the employment drop that occurred through April, except for Black individuals, who experienced a smaller rebound. Compared to the 2001 recession and the Great Recession, employment losses in the early COVID-19 recession were smaller for groups with low or high (vs. medium) education. We show that job loss was greater in occupations that require more inter personal contact and that can not be performed remotely, and that pre-COVID-19 sorting of work ers into occupations and industries along demographic lines can explain a sizable portion of the demographic gaps in new unemployment. For example, while women suffered more job losses than men, their disproportionate pre-epidemic sorting into occupations compatible with remote work shielded them from even larger employment losses. However, substantial gaps in employment losses across groups can not be explained by socioeconomic differences. We consider policy lessons and future research needs regarding the early labor market implications of the COVID-19 crisis.}
+      \field{eprinttype}{jstor}
+      \field{issn}{0070-3370}
+      \field{journaltitle}{Demography}
+      \field{number}{3}
+      \field{title}{Determinants of {{Disparities}} in {{Early COVID-19 Job Losses}}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{59}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{827\bibrangedash 855}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1215/00703370-9961471
+      \endverb
+      \verb{eprint}
+      \verb 48687245
+      \endverb
+      \verb{file}
+      \verb files/2/Montenovo 等 - 2022 - Determinants of Disparities in Early COVID-19 Job Losses.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

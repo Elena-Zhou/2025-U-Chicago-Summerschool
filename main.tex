@@ -1,0 +1,287 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb,amsmath,amsfonts,geometry,graphicx,caption,setspace,comment,array,indentfirst, dcolumn}
+\usepackage[english]{babel}
+%\usepackage{apalike}
+%\usepackage{natbib}
+%\usepackage{apacite}
+\usepackage{hyperref}
+\usepackage[backend=biber,style=apa,natbib=true]{biblatex}
+\addbibresource{reference.bib}
+
+
+\geometry{left=1in,right=1in,top=1.0in,bottom=1.0in}
+
+\begin{document}
+
+\begin{titlepage}
+\title{The Change of the Relationship Between Household Size and Employment Status During the COVID-19 Economic Shock}
+\author{Xiaochen Zhou}
+\date{August 15, 2025}
+\maketitle
+\begin{abstract}
+\noindent This study examines the change of relationship between household size and employment outcomes during the COVID-19 pandemic in the United States using 2018-2021 IPUMS-CPS data. We find that pre-pandemic, larger households faced significant disadvantages in unemployment and labor force withdrawal compared to 1-person households. While the pandemic universally worsened adverse employment outcomes, a key finding is that the crisis narrowed these household size-based gaps. Negative interaction terms indicate that larger households' pre-pandemic disadvantages diminished, possibly due to the rise of remote work and intra-household resource pooling. The findings clarify how microeconomic shocks can reshape labor inequalities through household-level mechanisms, offering crucial insights for future crisis policy.\\
+
+\bigskip
+\end{abstract}
+\setcounter{page}{0}
+\thispagestyle{empty}
+\end{titlepage}
+\pagebreak \newpage
+
+\doublespacing
+
+
+\section{Introduction} \label{sec:introduction}
+The COVID-19 pandemic, which emerged in early 2020, rapidly escalated into a global health crisis, subsequently triggering an unprecedented economic shock with profound effects on the U.S. labor market. During the initial phase of the pandemic, particularly in the first half of 2020, the U.S. labor market experienced widespread job losses, furloughs, and significant shifts in labor force participation rates. It is crucial to note that the economic impact and labor market disruptions were not uniformly distributed across all demographic groups. Different demographic structures and household compositions experienced varied impacts during the pandemic. For instance, research by \citet{montenovoDeterminantsDisparitiesEarly2022} explored the determinants of disparities in COVID-19 job losses, while \citet{couchEarlyEvidenceImpacts2020} detailed this impact on minority unemployment in the United States. This non-uniform impact suggests that understanding how specific groups, such as individuals in households of varying sizes, navigated these shocks is vital for developing more targeted policies. The core question this study aims to address is: "How did the relationship between household size and employment status change during the COVID-19 economic shock?". The essence of this research lies in understanding the "modification" or "alteration" of this relationship during the pandemic, which will be captured through interaction terms in the econometric model.
+ 
+
+
+\section{Literature Review} \label{sec:literature}
+\indent The COVID-19 pandemic has exerted an unprecedented dual impact on household dynamics and labor markets, reshaping the interplay between household size and employment status. Through lockdowns, industry shutdowns, and the rapid adoption of remote work, the pandemic transformed households into central hubs for both economic activity and care responsibilities. Household size determined the distribution of unpaid care work to some extent, while labor markets faced structural disruptions. This unique context has likely altered the traditional relationship between household size and employment outcomes. Unpacking these changes is critical for understanding labor market inequalities and household resilience amid crises, as it reveals how systemic shocks exacerbate or mitigate pre-existing vulnerabilities tied to family structure.\\
+
+\indent Prior research on the relationship between household size and employment status has primarily focused on gender-specific dynamics, with limited attention to an overarching synthesis of their general association. \citet{angristChildrenTheirParents1996} employed instrumental variable (IV) estimation—using the sex composition of the first two children as an exogenous predictor of family size—to identify causal effects, finding that additional children reduce women’s labor supply. Extending this work, \citet{coolsChildrenCareersHow2017} utilized Norwegian administrative data and IV methods to demonstrate that larger families lead to persistent career penalties for college-educated women, including reduced employment in high-paying firms, even after labor supply is restored, while men’s labor market outcomes remained unaffected. Complementing this, \citet{baranowska-ratajFamilySizeMens2022} employed IV models with multiple births as instruments in European data, focusing on men’s outcomes. They found that larger family size correlates with increased working hours and higher wages for men. While these studies rigorously identified gendered mechanisms, they lack a holistic overview of how household size, irrespective of gender, relates to employment status more broadly. \\
+\indent During the COVID-19 pandemic, U.S.-focused research has primarily explored labor market disruptions through the lenses of gender disparities \citep{albanesiGenderedImpactCOVID192021,biegertHouseholdJoblessnessUS2023}, job characteristics \citep{albanesiGenderedImpactCOVID192021,montenovoDeterminantsDisparitiesEarly2022,biegertHouseholdJoblessnessUS2023}, while leaving critical gaps in understanding the role of household size. \citet{albanesiGenderedImpactCOVID192021} highlighted that women experienced steeper employment declines due to their overrepresentation in high-contact and inflexible occupations that were disproportionately affected by lockdowns, compounded by increased childcare burdens from school closures. Notably, they underscored how care responsibilities, which scale with household size, exacerbated these gendered gaps but stopped short of analyzing household size as an independent variable. \citet{agrawalCOVID19EconomicInequality2022} further documented that pandemic-induced job and income losses were concentrated among disadvantaged groups, including larger households reliant on multiple earners or with heavy care responsibilities, yet their analysis focused on broader inequality dynamics rather than unpacking how household size itself reshaped employment-status relationships. Even insights from cross-national research, such as  \citeauthor{ceciliaIntrahouseholdExposureLabor2021}’s finding that intra-household correlation in labor market risk limits consumption smoothing, resonate with U.S. contexts but remain unextended to analyses of how household size amplifies or mitigates such correlation\citep{ceciliaIntrahouseholdExposureLabor2021}.\\
+
+\indent These gaps underscore that existing studies either treat household size as a proxy for other factors such as  childcare needs or omit it entirely. Our study addresses this oversight to quantify changes in the household size-employment relationship during the pandemic. This research allows us to test whether larger households experienced disproportionately larger employment declines due to intensified care demands or benefited from resource pooling—a question unaddressed in existing literature—and thus clarifies how household structure mediated labor market resilience during the crisis.
+
+
+\section{Data and Empirical Strategy} \label{data}
+\subsection{Data Source}
+The primary data source is the IPUMS - CPS (Integrated Public Use Microdata Series - Current Population Survey), compiled by the U.S. Census Bureau and Bureau of Labor Statistics. Sampling around 60,000 U.S. households, it provides nationally - representative data on employment, income, education, demographics, and household characteristics. Widely used in labor economics research, its harmonized, accessible microdata supports analysis of relationships in this study amid COVID - 19 shocks from 2018 to 2021.
+
+
+\subsection{Array of Things}
+\textbf{Dependent Variable: Employment Status (EMPSTAT)}
+\begin{itemize}
+\item EMPSTAT is the core dependent variable in this study, originally representing three categorical states: "employed," "unemployed," or "not in the labor force".The figure \ref{Distribution of Employment Status from 2018 to 2020 } shows a rough distribution of these status from 2018 to 2021. To accommodate the two separate binary Probit models, EMPSTAT will be operationalized as follows:
+\begin{itemize}
+\item Model 1 (Employed vs. Unemployed): A binary variable will be constructed where 0 indicates "employed" and 1 indicates "unemployed." Individuals classified as "not in the labor force" will be systematically excluded from the sample for this specific analysis. This exclusion is justified as the model specifically focuses on the risk of unemployment for individuals actively participating or desiring to participate in the labor market.
+\item Model 2 (Employed vs. Not in Labor Force): A second binary variable will be constructed where 0 indicates "employed" and 1 indicates "not in the labor force." For this analysis, individuals classified as "unemployed" will be excluded from the sample. This exclusion is justified as the model focuses on the decision between labor force participation and withdrawal, capturing factors that might lead individuals to disengage from active job seeking.
+\end{itemize}
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=.6\textwidth]{Distribution of Employment Status from 2018 to 2020 .png}
+\caption{Distribution of Employment Status from 2018 to 2021 } \label{Distribution of Employment Status from 2018 to 2020 }
+
+\end{figure}
+
+\end{itemize}
+
+\textbf{Independent Variables}
+\begin{itemize}
+\item Household Size (FAMSIZE): Total number of persons in a household, including children and adults. It is operationalized as a set of dummy variables, including 1 person (reference category),2 persons,3 persons,4 persons,5 + persons.
+\item COVID period indicator(COVID): It is a binary variable, with "0" defined as before 2020 (reference category), "1" as 2020 and beyond. This variable serves as the key temporal marker for the COVID shock.
+\item FAMSIZE * COVID: Interaction term between household size and the COVID period indicator. This interaction term is central to answering the research question, as it captures how the relationship between household size and employment status "changed" during the COVID-19 pandemic.
+\end{itemize}
+
+\textbf{Control Variables}
+\begin{itemize}
+ \item Region (REGION): Dummy variables for major U.S. geographic regions.
+    \item Gender (SEX): Binary variable with "0" defined as "Male", "1" as "Female".
+    \item Age (AGE): The continuous variable.
+    \item Education (EDUC): Categorical dummy variables representing different educational attainment levels.
+    \item Presence of Children (NCHILD): Binary variable with "0" defined as "No children in household", "1" as "Children present in household".
+    \item Ethnicity (RACE): Categorical dummy variables for different ethnic groups.
+\end{itemize}
+
+
+  
+
+
+\subsection{Empirical Strategy}
+\subsubsection{Model Specification: Binary Probit Models}
+
+Due to computational limitations, this study employs two separate binary Probit models. The binary approach is a robust and feasible method given the practical constraints. This methodological choice allows for a targeted and interpretable analysis of specific transitions out of employment, which has significant policy and research implications.
+\subsubsection{Model Equations}
+\noindent \textbf{Model 1: Probability of Unemployment (Relative to Employment)}
+
+\begin{equation}
+\begin{aligned}
+\displaystyle \Pr (Unemployed=1 | X_i) =& \Phi(\beta_{0}^1+ \beta_{1}^1 FAMSIZE_i+ \beta_{2}^1COVID _i  \\
+ &+\beta_{3}^1(FAMSIZE_i * COVID_i ) + \sum_{j=1}^k \gamma_{j}^1 Controls_{ij})
+\end{aligned}
+\end{equation}
+Where:
+\begin{itemize}
+\item $X_i$: A vector representing all independent and control variables.
+\item $\Phi$: The cumulative distribution function of the standard normal distribution.
+\item $\beta_{3}^1$: The coefficient for the interaction terms between household size dummy variables and the COVID period indicator for model 1.
+\item $\sum_{j=1}^k \gamma_{j}^1 Controls_{ij}$ : A vector of coefficients for the control variables (REGION,SEX,AGE, EDUC, NCHILD, RACE).
+\end{itemize}
+
+\noindent \textbf{Model 2: Probability of Not in Labor Force (Relative to Employment)}
+
+\begin{equation}
+\begin{aligned}
+\displaystyle \Pr (Not\ in\ Labor\ Force=1 | X_i) =& \Phi(\beta_{0}^2+ \beta_{1}^2 FAMSIZE_i+ \beta_{2}^2COVID _i  \\
+ &+\beta_{3}^2(FAMSIZE_i * COVID_i ) + \sum_{j=1}^k \gamma_{j}^2 Controls_{ij} )
+\end{aligned}
+\end{equation}
+Where:
+\begin{itemize}
+\item $X_i$: A vector representing all independent and control variable.
+\item $\Phi$: The cumulative distribution function of the standard normal distribution.
+\item $\beta_{3}^2$: The coefficient for the interaction terms between household size dummy variables and the COVID period indicator for model 2.
+\item $\sum_{j=1}^k \gamma_{j}^2 Controls_{ij}$ : A vector of coefficients for the control variables (REGION,SEX,AGE, EDUC, NCHILD, RACE).
+\end{itemize}
+
+
+\subsubsection{Estimation Method}
+Both binary Probit models will be estimated using Maximum Likelihood Estimation (MLE), which is the standard and most efficient method for estimating Probit model parameters. To ensure the robustness of the estimates, robust standard errors will be used to address potential heteroskedasticity in the error terms. Moreover, the coefficients from both two models represent direction and relative magnitude. Average marginal effects (AMEs) will be reported for quantitative interpretation of covariate effects.
+
+
+
+\section{Results}
+
+
+
+\begin{table}[t] \centering 
+  \caption{Binary Probit Model Results for two models} 
+  \label{probit} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable: EMPSTAT}} \\ 
+\cline{2-3}
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)}\\ 
+\\[-1.8ex] & \multicolumn{1}{c}{Unemployed=1} & \multicolumn{1}{c}{Not in Labor Force=1}\\ 
+\hline \\[-1.8ex] 
+ FAMSIZE2\_persons & 0.022 & 0.009 \\ 
+  & (0.020) & (0.010) \\ 
+  & & \\ 
+ FAMSIZE3\_persons & 0.178^{***} & 0.362^{***} \\ 
+  & (0.021) & (0.011) \\ 
+  & & \\ 
+ FAMSIZE4\_persons & 0.091^{***} & 0.427^{***} \\ 
+  & (0.021) & (0.011) \\ 
+  & & \\ 
+ FAMSIZE5\_more\_persons & 0.138^{***} & 0.508^{***} \\ 
+  & (0.021) & (0.011) \\ 
+  & & \\ 
+ COVID1 & 0.209^{***} & 0.051^{***} \\ 
+  & (0.017) & (0.009) \\ 
+  & & \\ 
+ FAMSIZE2\_persons:COVID1 & -0.065^{**} & -0.006 \\ 
+  & (0.021) & (0.011) \\ 
+  & & \\ 
+ FAMSIZE3\_persons:COVID1 & -0.074^{***} & -0.014 \\ 
+  & (0.022) & (0.012) \\ 
+  & & \\ 
+ FAMSIZE4\_persons:COVID1 & -0.048^{*} & -0.027^{*} \\ 
+  & (0.022) & (0.012) \\ 
+  & & \\ 
+ FAMSIZE5\_more\_persons:COVID1 & -0.073^{**} & -0.010 \\ 
+  & (0.022) & (0.012) \\ 
+  & & \\ 
+\hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{891,486} & \multicolumn{1}{c}{1,179,683} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note: Robust standard errors in parentheses.}  & \multicolumn{2}{r}{$^{*}$p$<$0.05; $^{**}$p$<$0.01; $^{***}$p$<$0.001} \\ 
+\end{tabular} 
+\end{table} 
+
+\begin{table}[h] \centering 
+  \caption{Marginal Effects for Model 1} 
+  \label{mfx-model1} 
+\begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{dF/dx} & \multicolumn{1}{c}{Std. Err.} & \multicolumn{1}{c}{z} & \multicolumn{1}{c}{P\textgreater \textbar z\textbar } \\ 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{FAMSIZE2\_persons} & 0.0020 & 0.0018 & 1.1147 & 0.2650 \\ 
+\multicolumn{1}{c}{FAMSIZE3\_persons} & 0.0176 & 0.0022 & 7.8852 & 0 \\ 
+\multicolumn{1}{c}{FAMSIZE4\_persons} & 0.0086 & 0.0021 & 4.1452 & 0.00003 \\ 
+\multicolumn{1}{c}{FAMSIZE5\_more\_persons} & 0.0135 & 0.0022 & 6.0890 & 0 \\ 
+\multicolumn{1}{c}{COVID1} & 0.0169 & 0.0012 & 13.8137 & 0 \\ 
+\multicolumn{1}{c}{FAMSIZE2\_persons:COVID1} & -0.0057 & 0.0018 & -3.1455 & 0.0017 \\ 
+\multicolumn{1}{c}{FAMSIZE3\_persons:COVID1} & -0.0064 & 0.0018 & -3.5533 & 0.0004 \\ 
+\multicolumn{1}{c}{FAMSIZE4\_persons:COVID1} & -0.0042 & 0.0019 & -2.2501 & 0.0244 \\ 
+\multicolumn{1}{c}{FAMSIZE5\_more\_persons:COVID1} & -0.0063 & 0.0018 & -3.4484 & 0.0006 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\begin{table}[h] \centering 
+  \caption{Marginal Effects for Model 2} 
+  \label{mfx-model2} 
+\begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} D{.}{.}{-4} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{dF/dx} & \multicolumn{1}{c}{Std. Err.} & \multicolumn{1}{c}{z} & \multicolumn{1}{c}{P\textgreater \textbar z\textbar } \\ 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{FAMSIZE2\_persons} & 0.0030 & 0.0033 & 0.9101 & 0.3628 \\ 
+\multicolumn{1}{c}{FAMSIZE3\_persons} & 0.1246 & 0.0040 & 31.0837 & 0 \\ 
+\multicolumn{1}{c}{FAMSIZE4\_persons} & 0.1480 & 0.0040 & 37.1473 & 0 \\ 
+\multicolumn{1}{c}{FAMSIZE5\_more\_persons} & 0.1789 & 0.0041 & 43.1405 & 0 \\ 
+\multicolumn{1}{c}{COVID1} & 0.0164 & 0.0029 & 5.7280 & 0 \\ 
+\multicolumn{1}{c}{FAMSIZE2\_persons:COVID1} & -0.0018 & 0.0036 & -0.4962 & 0.6198 \\ 
+\multicolumn{1}{c}{FAMSIZE3\_persons:COVID1} & -0.0046 & 0.0038 & -1.2077 & 0.2272 \\ 
+\multicolumn{1}{c}{FAMSIZE4\_persons:COVID1} & -0.0087 & 0.0037 & -2.3724 & 0.0177 \\ 
+\multicolumn{1}{c}{FAMSIZE5\_more\_persons:COVID1} & -0.0032 & 0.0038 & -0.8415 & 0.4001 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+
+\subsection{Binary Probit Model Estimates (Table \ref{probit} )}
+We estimate two Binary Probit Models to examine how household size (relative to 1-person households) and the COVID-19 pandemic (relative to the pre-pandemic period, COVID=0) shape employment outcomes. The models contrast Unemployed vs. Employed (Model 1) and Not in Labor Force vs. Employed (Model 2).
+\subsubsection{Main Effects: Household Size (Relative to 1-Person Households)}
+All comparisons below reference 1-person households as the baseline:
+\begin{itemize}
+\item Model 1 (Unemployed = 1): Larger households show mixed associations with unemployment. 3 person households have a significantly higher probability of unemployment (0.178***), as do 4 person (0.091***) and 5+person households (0.138***). Only 2 person households show no significant difference from 1 person households (0.022, $p > 0.05$).
+\item Model 2 (Not in Labor Force = 1): Larger households consistently have a higher probability of labor force withdrawal, with effects strengthening with size. 3 person households (0.362***), 4 person households (0.427***), and 5+person households (0.508***) all differ significantly from 1 person households, while 2-person households show a small, non-significant effect (0.009, $p > 0.05$).
+\end{itemize}
+
+\subsubsection{Main Effects: COVID-19 Pandemic (Relative to Pre-Pandemic Period)}
+Relative to the pre-pandemic period (COVID=0), the pandemic (COVID=1) significantly increases adverse employment outcomes. The pandemic alone raises the probability of both unemployment (0.209***) and labor force withdrawal (0.051***).
+
+\subsubsection{Interaction Effects: Household Size × COVID-19 (Relative to Reference Groups)}
+Interaction terms capture how the pandemic altered the relationship between household size and employment outcomes, relative to the pre-pandemic baseline (COVID=0) and 1 person households:
+\begin{itemize}
+\item Model 1 (Unemployed = 1): Most interactions are negative and significant, meaning the pandemic reduced the unemployment gap between larger households and 1 person households (relative to pre-pandemic patterns). For example, the interaction term (-0.074***) for 3-person households indicates that during COVID-19, the unemployment risk of 3 person households (relative to 1 person households) was smaller than in the pre-pandemic period.
+\item Model 2 (Not in Labor Force = 1): Only the 4 person household interaction term is significant (-0.027*), suggesting the pandemic slightly reduced the labor force withdrawal gap between 4 person and 1 person households, while other household sizes showed no significant change.
+\end{itemize}
+
+\subsection{Average Marginal Effects (Tables \ref{mfx-model1}–\ref{mfx-model2})}
+Marginal effects quantify the average difference in employment probability relative to the reference groups (1 person households for size, pre-pandemic for COVID).
+\subsubsection{Model 1: Unemployed vs. Employed}
+\begin{itemize}
+\item Household Size (Pre-Pandemic, COVID=0): Compared to 1 person households, 3 person households have a 1.76 percentage point higher probability of unemployment (dF/dx = 0.0176, z = 7.8852, $p < 0.001$), while 5+person households have a 1.35 percentage point higher probability (0.0135, $p < 0.001$). 2 person households show no significant difference (0.0020, $p > 0.05$).
+\item COVID-19 (1 Person Households): For 1 person households, the pandemic increases unemployment probability by 1.69 percentage points (0.0169, z = 13.8137, $p < 0.001$) relative to the pre-pandemic period.
+\item Interaction Effects: During the pandemic, the unemployment gap between larger households and 1 person households shrinks. For example, 3 person households see their pre-pandemic unemployment advantage over 1 person households reduced by 0.64 percentage points (interaction dF/dx = -0.0064,$ p < 0.001$).
+\end{itemize}
+\subsubsection{Model 2: Not in Labor Force vs. Employed}
+\begin{itemize}
+\item Household Size (Pre-Pandemic, COVID=0): Relative to 1 person households, 5+person households have a 17.89 percentage point higher probability of labor force withdrawal (0.1789, z = 43.1405, $ p < 0.001$), while 3 person households have a 12.46 percentage point higher probability (0.1246, $p < 0.001$). 2 person households show no significant difference (0.0030, $ p > 0.05$).
+\item COVID-19 (1 Person Households): For 1 person households, the pandemic increases labor force withdrawal by 1.64 percentage points (0.0164, z = 5.7280, $p < 0.001$) relative to pre-pandemic.
+\item Interaction Effects: Only 4 person households show a significant narrowing of the gap with 1 person households during the pandemic, with their labor force withdrawal probability reduced by 0.87 percentage points (interaction dF/dx = -0.0087, $p < 0.05$).
+\end{itemize}
+
+
+
+\section{Discussion}
+\indent This study examines how the relationship between household size and employment status evolved during the COVID-19 economic shock in the U.S., with results revealing three core insights. First, prior to the pandemic, larger households (3 or more members) faced significant employment disadvantages: they had higher probabilities of both unemployment (Model 1) and labor force withdrawal (Model 2) compared to 1 person households, which can be explained by care burdens and resource constraints in larger families. Second, the pandemic itself exacerbated adverse employment outcomes across groups, as indicated by the positive main effect of the COVID indicator, aligning with research on widespread labor market disruptions during lockdowns \citep{albanesiGenderedImpactCOVID192021,montenovoDeterminantsDisparitiesEarly2022}. Third, critically, the pandemic narrowed the employment gap between larger households and 1-person households: interaction terms show that the pre-pandemic employment disadvantages of larger households, particularly in unemployment risk, diminished during COVID-19, with the most pronounced convergence observed for 3 person and 5+person households.\\
+\indent  Critical to our research question, the narrowing of gaps between larger households and 1 person households during the pandemic in the U.S. can be contextualized with two mechanisms from existing literature. First, remote work adoption which is highlighted as a key buffer during COVID-19 may have reduced geographic and time constraints for larger households, easing the balance between work and caregiving \citep{montenovoDeterminantsDisparitiesEarly2022,ceciliaIntrahouseholdExposureLabor2021}. Second, \citet{ceciliaIntrahouseholdExposureLabor2021} note that intra-household resource pooling can mitigate labor market risks during crises, so larger households may have leveraged such pooling to offset pre-pandemic disadvantages, particularly in reducing unemployment gaps.\\
+\indent However, this study has several limitations. First, we use two binary Probit models instead of a multinomial model, which may obscure transitions between employment, unemployment, and labor force withdrawal. Second, the absence of fixed effects leaves unobserved heterogeneity unaddressed.
+
+\section{Conclusion} \label{sec:conclusion}
+This study examines how the relationship between household size and employment status evolved during the COVID-19 pandemic in the U.S.. We found that prior to the pandemic, larger households (3 or more members) faced significant employment disadvantages compared to 1 person households, with higher probabilities of both unemployment and labor force withdrawal, likely due to care burdens and resource constraints. While the pandemic itself exacerbated adverse employment outcomes across all groups, a key finding is that the COVID-19 shock narrowed the employment gap between larger households and 1 person households. Interaction effects reveal that the pre-pandemic unemployment disadvantages of larger households, particularly for 3 person and 5+person households, diminished during the crisis. This convergence may be attributed to the rise of remote work, which provided greater flexibility for members of larger households, and the strengthening of intra-household resource pooling and risk-sharing mechanisms during a crisis. Although this study's use of binary Probit models has limitations in fully capturing the complex transitions between employment states, these findings offer important insights into how macroeconomic shocks can impact labor market outcomes through household-level mechanisms.
+
+\clearpage
+\singlespacing
+%\setlength\bibsep{0pt}
+%\bibliographystyle{apacite}
+%\bibliography{reference}
+\printbibliography
+
+
+
+
+
+
+
+
+\end{document}
